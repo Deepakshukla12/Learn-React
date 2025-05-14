@@ -1,6 +1,7 @@
 import "./App.css";
-import { useState } from "react";
+import { useState } from "React";
 import LikeButton from "./LikeButton";
+import Object from "./Object_State";
 
 function App() {
   // using useState hook to create a state variable
@@ -42,6 +43,8 @@ function App() {
 
       <br /><br />
       <LikeButton />
+      <br /><br />
+      <Object />
     </>
   );
 }
