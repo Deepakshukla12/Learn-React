@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import LikeButton from "./LikeButton";
 
 function App() {
   // using useState hook to create a state variable
@@ -35,8 +36,12 @@ function App() {
       <br />
       <br />
       <button onClick={removeValue}>Subtract Value</button>
-
+      <br />
+      <br />
       <button onClick={() => setText("This is after clicking")}>{text}</button>
+
+      <br /><br />
+      <LikeButton />
     </>
   );
 }
