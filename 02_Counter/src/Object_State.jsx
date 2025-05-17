@@ -82,9 +82,10 @@ function Object() {
                     onChange={handleMail} />
             </label>
             <p>
-                {user.firstName}
+                Name: {user.firstName}
                 {user.lastName}
-                ({user.emailId})
+                <br />
+                EmailId:{user.emailId}
             </p>
         </>
     );
