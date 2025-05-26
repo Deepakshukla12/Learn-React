@@ -1,5 +1,5 @@
 
-# 📚 Learn React – Mini Projects Collection
+# 📚 Learn React - A Journey
 
 Welcome to **Learn-React**, a curated collection of beginner to intermediate React projects designed to help developers solidify their understanding of React fundamentals, component-based architecture, state management, and UI design.
 
