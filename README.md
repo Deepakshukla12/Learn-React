@@ -20,6 +20,7 @@ Learn-React/
 ├── 07UseStateHook/
 ├── 08Theme_Switcher/
 ├── 09Theme_Switcher_2/        ← Todo App using Context API
+├── 10_todoContextLocal
 └── README.md
 ```
 
@@ -44,7 +45,7 @@ A fully functional Todo app built with:
 To run it:
 
 ```bash
-cd 09Theme_Switcher_2
+download zip file
 npm install
 npm run dev
 ```
@@ -66,6 +67,7 @@ Each mini project demonstrates key concepts of React:
 | 07UseStateHook        | useState hook basics                       |
 | 08Theme_Switcher      | UI theming and toggles                     |
 | 09Theme_Switcher_2    | Context API, advanced state sharing        |
+| 10_todoContextLocal   | Todo App, Context API, Local Storage       |
 
 ---
 
