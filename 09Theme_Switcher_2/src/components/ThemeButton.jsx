@@ -1,9 +1,15 @@
+// This component (`ThemeBtn`) uses the Theme Context to toggle between light and dark modes.
+// - It accesses `themeMode`, `darkTheme`, and `lightTheme` using the `useTheme` custom hook.
+// - When the toggle switch is changed, it calls the appropriate function from context to update the theme globally.
+// - This avoids prop drilling and allows theme control from any component in the app.
+
 import React from 'react'
 import useTheme from '../context/Theme';
 
 function ThemeBtn() {
     const {themeMode, darkTheme, lightTheme} = useTheme();
-    const onChangeBtn= (e) => {
+    
+    const onChangeBtn = (e) => {
         if (e.target.checked) {
             darkTheme();
         } else {
