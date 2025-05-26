@@ -1,3 +1,13 @@
+
+/**
+ * This component displays a product card with an image, title, rating, and price.
+ * It does NOT use the Context API directly.
+ * However, it reacts to theme changes triggered via the Theme Context (e.g., dark/light mode),
+ * thanks to Tailwind CSS utility classes like `dark:bg-gray-800`.
+ * The actual theme state and logic are managed globally via Context in a parent component.
+ */
+
+
 import React from "react";
 
 function Card() {
